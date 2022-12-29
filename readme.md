@@ -156,12 +156,78 @@ JavaScript's statements often start with a keyword to identify the JavaScript ac
 
 ---------------------------------------------------------------------------------------------
 # js syntax
+- Fixed values are called Literals.<br>
+  - Numbers are written with or without decimals
+  - Strings are text, written within double or single quotes
+- Variable values are called Variables.
 
+** <br>
+JavaScript uses the keyword's var, let and const to declare variables.=>use equal sign
+<br>
+<br>
+<br>
+what is evaluation?<br>
+ - computation<br>
+  what is computation?<br>
+   - an expression<br>
+   what is expression?<br>
+     - combination of values, variable and operators** 
+   <br>
 
+یک عبارت ترکیبی از مقادیر، متغیرها و عملگرها است که به یک مقدار محاسبه می شود.
 
+-------------------------------------------------------------------------------
 
+# js comment
+// or /* */<br>
+It is most common to use single line comments.<br>
+Block comments are often used for formal documentation.
+<br>
+Using Comments to Prevent Execution
 
+-------------------------------------------------------------------------------
 
+# js identifiers/name
+A JavaScript name must begin with:
+
+- A letter (A-Z or a-z)
+- A dollar sign ($)
+- Or an underscore (_)<br>
+  Numbers are not allowed as the first character in names.
+JavaScript is Case Sensitive
+- 
+All JavaScript variables must be identified with unique names(identifier)
+
+<br>
+JavaScript identifiers are case-sensitive.
+
+-------------------------------------------------------------------------------
+# js var
+4 Ways to Declare a JavaScript Variable:
+1. var =>The var keyword is used in all JavaScript code from 1995 to 2015.
+2. let=>after 2015
+3. const=>after 2015
+4. using nothing
+
+**always use const=>If you think the value of the variable can change, use let.<br>
+Variables are containers for storing values.<br>
+5. You can declare many variables in one statement.
+``` 
+let person = "John Doe", carName = "Volvo", price = 200;
+ ```
+
+-------------------------------------------------------------------------------
+# VIP
+In JavaScript, the equal sign (=) is an "assignment" operator, not an "equal to" operator.
+The "equal to" operator is written like == in JavaScript.<br>
+A variable declared without a value will have the value undefined.
+
+**You cannot re-declare a variable declared with let or const.**<br>
+**If you re-declare a JavaScript variable declared with var, it will not lose its value.**<br>
+اگر میخوای دوباره از متغییری استفاده کنی که قبلا مقدار دادی بهش باید از  var استفاده کنی
+این نکتع خیلی مهمه که بدونی اگر میخوای چند تا رشته رو کانکت کنی از + استفاده میکنی ولی تو js میتونی عدد رو با string هم کانکت کنی که مثال ۹ رو میتونی ببینی
+علامت دلار و ـ هم اسم متغیر میتونه باشه
+-------------------------------------------------------------------------------
 
 
 

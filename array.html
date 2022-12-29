@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+<p id="demo">
+</p>
+<script>
+    const cars=["benz","supra","bmw"];
+    cars[0]="volvo";//change element
+    cars.push("audi");
+    document.getElementById("demo").innerHTML=cars; //add element
+</script>
+</body>
+</html>
+
+<!-- in js we can't reassign the array:-->
+<!--const cars = ["Saab", "Volvo", "BMW"];-->
+
+<!--cars = ["Toyota", "Volvo", "Audi"];    // ERROR-->
