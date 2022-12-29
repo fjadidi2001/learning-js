@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+<table>
+    <tr id="tr0">
+        <th id="th1"></th>
+        <th id="th2"></th>
+        <th id="th3"></th>
+    </tr>
+    <tr id="tr1">
+        <td id="td1"></td>
+        <td id="td2"></td>
+        <td id="td3"></td>
+    </tr>
+    <tr id="tr2">
+        <td id="td4"></td>
+        <td id="td5"></td>
+        <td id="td6"></td>
+    </tr>
+</table>
+<script>
+    let x=10;
+    let y=15.2;
+    let z=x+y;
+    var c=48;
+    var v=5;
+    var a=c**v;
+    var a=Math.pow(c,v); //same result as Math.pow(c,v) with c**v
+    let w=100*5+4/4%6; //Multiplication (*) and division (/) have higher precedence than addition (+) and subtraction (-).
+    //And the precedence can be changed by using parentheses.
+    var e=54;
+    let g=-56;
+    g<<=5;
+    let mi=45;
+    mi&=5;//and
+    let mo=45;
+    mo&=5;//xor
+    document.getElementById("tr0").innerHTML=z;
+    document.getElementById("th1").innerHTML=c;
+    document.getElementById("th2").innerHTML=w;
+    document.getElementById("th3").innerHTML=e;
+    document.getElementById("tr1").innerHTML=x&&=y;
+    document.getElementById("td1").innerHTML= e*=v;
+    document.getElementById("td2").innerHTML=	x ??= y;
+    document.getElementById("td3").innerHTML=	x |= y;
+    document.getElementById("td4").innerHTML=g;
+    document.getElementById("td5").innerHTML=mi;
+    document.getElementById("td6").innerHTML=mo;
+</script>
+</body>
+</html>
+
+The ??= Operator
+The Nullish coalescing assignment operator is used between two values.
+
+If the first value is undefined or null, the second value is assigned.

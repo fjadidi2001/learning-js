@@ -238,7 +238,21 @@ var
 
 
 
+If you add a number and a string, the result will be a string!
 
 
 
+-------------------------------------------------------------------------------
+- ===	equal value and equal type
+- !==	not equal value or not equal type
+- ?	ternary operator
+- %=	x %= y	x = x % y
+- ++	Increment
+- --	Decrement
+- &&	logical and
+- ||	logical or
+- !	logical not
+- typeof	Returns the type of variable
+- instanceof	Returns true if an object is an instance of an object type
 
+![opr](opre.png)
