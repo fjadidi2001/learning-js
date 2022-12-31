@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+<p id="mul"></p>
+<p id="sum"></p>
+<p id="min"></p>
+<p id="div"></p>
+<script>
+    function myfirstfunction(p0,p1){
+        return p0*p1;
+    }
+    function mysecondfunction(p0,p1){
+        return p0+p1;
+    }
+    function mythirdfunction(p0,p1){
+        return p0-p1;
+    }
+    function myforthfunction(p0,p1){
+        return p0/p1;
+    }
+    document.getElementById("mul").innerHTML=
+        myfirstfunction(4,43)+"<br>"+ mysecondfunction(4,43)+"<br>"+mythirdfunction(8,26)+"<br>"+myforthfunction(75,5);
+
+
+</script>
+</body>
+</html>

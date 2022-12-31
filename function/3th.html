@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+<p>convert fahrenheit to celsius</p>
+<p id="demo"></p>
+<p id="rimo"></p>
+<script>
+    function tocel(f){
+        return (5/9)*(f-32);
+    }
+    document.getElementById("demo").innerHTML=tocel(45);
+    document.getElementById("rimo").innerHTML=tocel;
+</script>
+</body>
+</html>
+<!--if in line 10 we do not use parentheses, the function definition will be returned to us like line 12-->

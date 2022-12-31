@@ -256,3 +256,5 @@ If you add a number and a string, the result will be a string!
 - instanceof	Returns true if an object is an instance of an object type
 
 ![opr](opre.png)
+-------------------------------------------------------------------------------
+
