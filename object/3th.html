@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+<p id="demo"></p>
+<p id="demo1"></p>
+<script>
+    const gin={
+        color:"blue",
+        type:"soft",
+        size:38,
+        fullProperty:function (){
+            return this.color+""+this.type+""+this.size;
+        }
+    };
+    document.getElementById("demo").innerHTML=gin.fullProperty();
+    document.getElementById("demo1").innerHTML=gin.fullProperty;//If you access a method without the () parentheses, it will return the function definition:
+
+
+</script>
+</body>
+</html>
