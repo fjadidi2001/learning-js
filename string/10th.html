@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		JavaScript |
+	difference between String.slice and
+	String.substring
+	</title>
+</head>
+
+<body style="text-align:center;">
+
+	<h1 style="color:green;">
+			GeeksForGeeks
+		</h1>
+
+	<p id="GFG_UP">
+	</p>
+
+	<button onclick="Geeks()">
+		click Here
+	</button>
+
+	<p id="GFG_DOWN"
+	style="color:green;">
+	</p>
+
+	<script>
+		var str = "This is GeeksForGeeks";
+		var up = document.getElementById("GFG_UP");
+		var down = document.getElementById("GFG_DOWN");
+		up.innerHTML = "Str = '" + str + "'";
+
+		function Geeks() {
+			down.innerHTML = "str.slice() = "
+			+ str.slice(0, 13) +
+			"<br>str.substring() = "
+			+ str.substring(0, 13);
+		}
+    // function Geeks() {
+    //         down.innerHTML = "str.slice() = "
+    //         + str.slice(13, 0) + 
+    //           "<br>str.substring() = "
+    //         + str.substring(13, 0);
+    //     }
+	</script>
+</body>
+
+</html>

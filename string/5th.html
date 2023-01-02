@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+<button onclick="func()">Try it</button>
+<p id="gi"></p>
+<script>
+    function func(){
+        let c="bad people are always good than good people";
+        //The replace() method replaces only the first match, so we use /g flag(global match)
+
+
+        document.getElementById("gi").innerHTML=
+            c.replace("/good/g","bad")
+    }
+
+</script>
+</body>
+</html>
