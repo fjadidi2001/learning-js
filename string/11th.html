@@ -5,6 +5,20 @@
 
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
+  	<script>
+		var str = "This is str var";
+		var up = document.getElementById("GFG_UP");
+		var down = document.getElementById("GFG_DOWN");
+		up.innerHTML = "Str = '" + str + "'";
+
+		function Geeks() {
+			down.innerHTML = "str.slice() = "
+			+ str.slice(0, 13) +
+			"<br>str.substring() = "
+			+ str.substring(0, 13);
+		}
+
+	</script>
 
 </body>
 </html>
